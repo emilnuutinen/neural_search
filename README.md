@@ -1,6 +1,6 @@
 # Weaviate Neural Wine Search (multilingual)
 
-Data: [Kaggle](https://www.kaggle.com/zynicide/wine-reviews).
+Data: [Kaggle](https://www.kaggle.com/zynicide/wine-reviews)
 
 Model: [paraphrase-multilingual-MiniLM-L12-v2](https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2)
 
