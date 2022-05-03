@@ -16,7 +16,7 @@ Model:[paraphrase-multilingual-MiniLM-L12-v2](https://huggingface.co/sentence-tr
 ```graphql
 {
   Get {
-    Wine(limit: 3, nearText: {concepts: ["wine that goes with cheese"]}) {
+    Wine(limit: 3, nearText: {concepts: ["Sopii juuston kanssa"]}) {
       title
       description
     }
@@ -32,16 +32,16 @@ Result is:
     "Get": {
       "Wine": [
         {
-          "description": "This delicate, elegant NLH wine starts with alluring aromas of lush honey, apricot and citrus and offers a vibrant, lively balance of fruit and acid. Pair with cheeses and fruit salads.",
-          "title": "Mulderbosch 2006 Noble Late Harvest Sauvignon Blanc (Stellenbosch)."
+          "description": "Oxidative in style, this Vidal Blanc boasts aromas of cidery apple, toasted nut and brioche dough. Medium to full in body, this offers concentrated flavors and tart acids. Try pairing it with a wedge of goat cheese to tame its raciness.",
+          "title": "Molliver Vineyards NV Vidal Blanc (Virginia)."
         },
         {
-          "description": "This easygoing white starts with a fresh nose of grapefruit, fig and flowers and leads into zesty but complex flavors of tropical fruit and citrus. Approachable and balanced, the wine will pair well with seafood and chicken dishes.",
-          "title": "Rietvallei Estate Wine 2008 Sauvignon Blanc (Robertson)."
+          "description": "This is an unfettered but very enjoyable Amarone, with upfront aromas of black fruit. The palate shows ripe but not exuberant plum and prune flavors, with a hint of chocolate. Pair with seasoned cheeses or braised meat dishes.",
+          "title": "Antica Corte 2010  Amarone della Valpolicella."
         },
         {
-          "description": "There's a hint of sweetness here, and light, almost watery fruit flavors of watermelon and strawberry. This could accompany a starter course of mild cheeses.",
-          "title": "Sno Road 2014 Rosado of Tempranillo (Columbia Valley (OR))."
+          "description": "Honeylike aromas, ripe peach and apple flavors and rather full body give this wine good depth and breadth. It seems like just the thing for a picnic or to serve with cheese at a party.",
+          "title": "Balo 2014 Pinot Gris (Anderson Valley)."
         }
       ]
     }
