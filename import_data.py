@@ -3,7 +3,7 @@ import weaviate
 
 client = weaviate.Client("http://localhost:8080")
 
-class_obj = {
+schema_class = {
     "class": "Wine",
     "properties": [
         {
@@ -17,7 +17,7 @@ class_obj = {
     ]
 }
 
-new_class = client.schema.create_class(class_obj)
+new_class = client.schema.create_class(schema_class)
 
 # open wine dataset (10000 items)
 df = pd.read_csv('data/wine_reviews.csv', index_col=0)
