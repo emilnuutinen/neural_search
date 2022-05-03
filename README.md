@@ -1,10 +1,10 @@
 # Weaviate Neural Wine Search (multilingual)
 
-Data: [Kaggle)](https://www.kaggle.com/zynicide/wine-reviews).
+Data: [Kaggle](https://www.kaggle.com/zynicide/wine-reviews).
 
-Model:[paraphrase-multilingual-MiniLM-L12-v2](https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2)
+Model: [paraphrase-multilingual-MiniLM-L12-v2](https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2)
 
-(Better model for English [multi-qa-MiniLM-L6-cos-v1](https://huggingface.co/sentence-transformers/multi-qa-MiniLM-L6-cos-v1)
+(Better model for English only [multi-qa-MiniLM-L6-cos-v1](https://huggingface.co/sentence-transformers/multi-qa-MiniLM-L6-cos-v1)
 )
 
 ## Usage
