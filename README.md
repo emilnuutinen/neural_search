@@ -1,6 +1,7 @@
 # Weaviate Neural Wine Search
 
-Data: [Kaggle (from WineEnthusiast)](https://www.kaggle.com/zynicide/wine-reviews).
+Data: [Kaggle)](https://www.kaggle.com/zynicide/wine-reviews).
+
 Model: [multi-qa-MiniLM-L6-cos-v1](https://huggingface.co/sentence-transformers/multi-qa-MiniLM-L6-cos-v1)
 
 
